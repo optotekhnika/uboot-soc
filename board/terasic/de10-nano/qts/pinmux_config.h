@@ -42,22 +42,22 @@ const u8 sys_mgr_init_table[] = {
 	0, /* GENERALIO0 */
 	1, /* GENERALIO1 */
 	1, /* GENERALIO2 */
-	1, /* GENERALIO3 */
-	1, /* GENERALIO4 */
+	0, /* GENERALIO3 */
+	0, /* GENERALIO4 */
 	0, /* GENERALIO5 */
 	0, /* GENERALIO6 */
-	1, /* GENERALIO7 */
-	1, /* GENERALIO8 */
+	0, /* GENERALIO7 */
+	0, /* GENERALIO8 */
 	0, /* GENERALIO9 */
 	0, /* GENERALIO10 */
 	0, /* GENERALIO11 */
 	0, /* GENERALIO12 */
 	0, /* GENERALIO13 */
 	0, /* GENERALIO14 */
-	1, /* GENERALIO15 */
-	1, /* GENERALIO16 */
-	1, /* GENERALIO17 */
-	1, /* GENERALIO18 */
+	0, /* GENERALIO15 */
+	0, /* GENERALIO16 */
+	0, /* GENERALIO17 */
+	0, /* GENERALIO18 */
 	0, /* GENERALIO19 */
 	0, /* GENERALIO20 */
 	0, /* GENERALIO21 */
@@ -71,20 +71,20 @@ const u8 sys_mgr_init_table[] = {
 	0, /* GENERALIO29 */
 	0, /* GENERALIO30 */
 	0, /* GENERALIO31 */
-	2, /* MIXED1IO0 */
-	2, /* MIXED1IO1 */
-	2, /* MIXED1IO2 */
-	2, /* MIXED1IO3 */
-	2, /* MIXED1IO4 */
-	2, /* MIXED1IO5 */
-	2, /* MIXED1IO6 */
-	2, /* MIXED1IO7 */
-	2, /* MIXED1IO8 */
-	2, /* MIXED1IO9 */
-	2, /* MIXED1IO10 */
-	2, /* MIXED1IO11 */
-	2, /* MIXED1IO12 */
-	2, /* MIXED1IO13 */
+	0, /* MIXED1IO0 */
+	0, /* MIXED1IO1 */
+	0, /* MIXED1IO2 */
+	0, /* MIXED1IO3 */
+	0, /* MIXED1IO4 */
+	0, /* MIXED1IO5 */
+	0, /* MIXED1IO6 */
+	0, /* MIXED1IO7 */
+	0, /* MIXED1IO8 */
+	0, /* MIXED1IO9 */
+	0, /* MIXED1IO10 */
+	0, /* MIXED1IO11 */
+	0, /* MIXED1IO12 */
+	0, /* MIXED1IO13 */
 	0, /* MIXED1IO14 */
 	0, /* MIXED1IO15 */
 	0, /* MIXED1IO16 */
@@ -208,11 +208,11 @@ const u8 sys_mgr_init_table[] = {
 	1, /* UART1USEFPGA */
 	0, /* CAN1USEFPGA */
 	0, /* USB1USEFPGA */
-	1, /* I2C3USEFPGA */
-	1, /* I2C2USEFPGA */
+	0, /* I2C3USEFPGA */
+	0, /* I2C2USEFPGA */
 	0, /* I2C1USEFPGA */
 	0, /* SPIM1USEFPGA */
 	0, /* USB0USEFPGA */
-	1 /* SPIM0USEFPGA */
+	0 /* SPIM0USEFPGA */
 };
 #endif /* __SOCFPGA_PINMUX_CONFIG_H__ */
